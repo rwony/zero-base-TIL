@@ -1,0 +1,47 @@
+.wrap {
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.unit {
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: rgb(241, 243, 249);
+}
+
+table th,
+table td {
+  padding: 5px;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.hidden-txt {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+.warning_txt {
+  font-size: 14px;
+  margin-top: 3px;
+}
